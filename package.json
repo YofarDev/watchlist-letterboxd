@@ -1,0 +1,32 @@
+{
+	"name": "stremio-letterboxd-yofardev",
+	"version": "2.1.0",
+	"description": "Import Letterboxd watchlist from CSV in Stremio",
+	"main": "server.js",
+	"scripts": {
+		"test": "node test/*",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Stremio/addon-helloworld"
+	},
+	"keywords": [
+		"stremio",
+		"stremio-addons",
+		"addons"
+	],
+	"author": "Smart Code OOD",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Stremio/addon-helloworld/issues"
+	},
+	"homepage": "https://github.com/Stremio/addon-helloworld",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"cheerio": "^1.0.0-rc.12",
+		"csv-parser": "^3.0.0",
+		"fs": "^0.0.1-security",
+		"stremio-addon-sdk": "^1.1.0"
+	}
+}
